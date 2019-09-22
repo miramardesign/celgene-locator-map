@@ -11,7 +11,12 @@
     height: 20%;
 }
 
-// path#france:hover {
-//     cursor: pointer;
-//     fill: red !important;
-// }
+path.selectable-country:hover {
+    cursor: pointer;
+    fill: blue !important;
+}
+
+path.active {
+    cursor: pointer;
+    fill: teal !important;
+}
