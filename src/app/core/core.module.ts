@@ -15,7 +15,8 @@ import { SharedModule } from '../shared/shared.module';
   ],
   exports: [
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    MapComponent
   ]
 })
 export class CoreModule { }
