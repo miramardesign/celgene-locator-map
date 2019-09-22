@@ -3,7 +3,30 @@
 }
 
 #logo{
-    background-image: url(../../../../assets/resources/Celgene-Logo@2x.png);
-    height: 140px;
+    background-image: url(../../../../assets/resources/Celgene-Logo.svg);
+    width: 160px;
+    height: 145px;
+
     border: 2px solid red;
+    background-repeat: no-repeat;
 }
+
+.marker{
+    height: 50px;
+    width: 50px;
+    border: 1px solid blue;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: 4px 0;
+
+ }
+
+.blue-map-marker .marker{
+    background-image: url(../../../../assets/resources/Blue-Map-Marker.svg);
+ }
+.green-map-marker .marker{ 
+    background-image: url(../../../../assets/resources/Green-Map-Marker.svg);
+}
+.orange-map-marker .marker{
+    background-image: url(../../../../assets/resources/Orange-Map-Marker.svg);
+ }
