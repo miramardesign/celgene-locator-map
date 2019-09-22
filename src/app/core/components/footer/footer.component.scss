@@ -7,10 +7,17 @@
     width: 160px;
     height: 145px;
 
-    border: 2px solid red;
+    // border: 2px solid red;
     background-repeat: no-repeat;
 }
 
+
+.bottom-key{
+    background-image: url(../../../../assets/resources/Bottom-Key.svg);
+    background-repeat: no-repeat;
+    background-position: 70% 7%;
+    background-size: 73% 74%;
+}
 .marker{
     height: 50px;
     width: 50px;
