@@ -1,3 +1,6 @@
+# deploy
+ng build --prod --base-href "https://miramardesign.github.io/celgene-locator-map/celgene-locator-map/"  && ngh 
+
 # MapKioskAndTrialKiosk
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.5.
