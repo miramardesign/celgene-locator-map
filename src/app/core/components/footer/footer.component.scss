@@ -4,19 +4,17 @@
 
 #logo{
     background-image: url(../../../../assets/resources/Celgene-Logo.svg);
-    width: 160px;
-    height: 145px;
-
-    // border: 2px solid red;
+    width: 24%;
+    height: 114px;
     background-repeat: no-repeat;
+    background-position: 2px -15px;
 }
-
 
 .bottom-key{
     background-image: url(../../../../assets/resources/Bottom-Key.svg);
     background-repeat: no-repeat;
-    background-position: 70% 7%;
-    background-size: 73% 74%;
+    background-position: 65% 0%;
+    background-size: 100% 93%;
 }
 .marker{
     height: 50px;
@@ -28,12 +26,18 @@
 
  }
 
-.blue-map-marker .marker{
-    background-image: url(../../../../assets/resources/Blue-Map-Marker.svg);
+ #bottom-disclaimer{
+    padding-left: 22px;
+    padding-top: 6px;
+    font-weight: bold;
  }
-.green-map-marker .marker{ 
-    background-image: url(../../../../assets/resources/Green-Map-Marker.svg);
-}
-.orange-map-marker .marker{
-    background-image: url(../../../../assets/resources/Orange-Map-Marker.svg);
- }
+
+// .blue-map-marker .marker{
+//     background-image: url(../../../../assets/resources/Blue-Map-Marker.svg);
+//  }
+// .green-map-marker .marker{ 
+//     background-image: url(../../../../assets/resources/Green-Map-Marker.svg);
+// }
+// .orange-map-marker .marker{
+//     background-image: url(../../../../assets/resources/Orange-Map-Marker.svg);
+//  }

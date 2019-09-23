@@ -1,0 +1,44 @@
+
+#study-article {
+    position: absolute;
+    width: 100%;
+    border: 2px solid gold;
+  }
+  .study-details {
+  
+    .row{
+      // border: 1px solid gray; 
+    }
+  
+    img {
+      margin-bottom: -11px;
+      margin-top: -18px;
+      min-height: 202px;
+    }
+  }
+  
+  .row-plaque-psoriasis,
+  .row-plaque-psoriasis,
+  .row-moderate-plaque-psoriasis {
+    visibility: hidden;
+  }
+  
+  .row-psoriasis,
+  .row-plaque-psoriasis,
+  .row-moderate-plaque-psoriasis {
+    visibility: hidden;
+  }
+  
+  // from the ngclasses
+  .psoriasis .row-psoriasis {
+    visibility: visible;
+  }
+  
+  .plaque-psoriasis .row-plaque-psoriasis {
+    visibility: visible;
+  }
+  
+  .moderate-plaque-psoriasis .row-moderate-plaque-psoriasis {
+    visibility: visible;
+  }
+  

@@ -1,6 +1,6 @@
 @import "../../../../../src/_variables.scss";
 
-.top-instructions {
+.top-instructions, .top-key{
   background-image: url(../../../../assets/resources/Instructions.svg);
   background-repeat: no-repeat;
   background-position: 46% 0%;
@@ -10,11 +10,11 @@
   height: 14%;
 }
 
-#study-article {
-  position: absolute;
-  width: 100%;
-  border: 2px solid gold;
+#map-svg{
+  width: 100%; 
+  height: 100%
 }
+
 
 path.selectable-country:hover {
   cursor: pointer;
@@ -26,33 +26,3 @@ path.active {
   fill: $teal !important;
 }
 
-.study-details {
-  img {
-    min-height: 222px;
-  }
-}
-
-.row-plaque-psoriasis,
-.row-plaque-psoriasis,
-.row-moderate-plaque-psoriasis {
-  visibility: hidden;
-}
-
-.row-psoriasis,
-.row-plaque-psoriasis,
-.row-moderate-plaque-psoriasis {
-  visibility: hidden;
-}
-
-// from the ngclasses
-.psoriasis .row-psoriasis {
-  visibility: visible;
-}
-
-.plaque-psoriasis .row-plaque-psoriasis {
-  visibility: visible;
-}
-
-.moderate-plaque-psoriasis .row-moderate-plaque-psoriasis {
-  visibility: visible;
-}
