@@ -1,20 +1,10 @@
 @import "../../../../../src/_variables.scss";
 
-.top-instructions, .top-key{
-  background-image: url(../../../../assets/resources/Instructions.svg);
-  background-repeat: no-repeat;
-  background-position: 46% 0%;
-  background-size: 72% 72%;
-  position: absolute;
-  width: 100%;
-  height: 14%;
-}
 
 #map-svg{
   width: 100%; 
   height: 100%
 }
-
 
 path.selectable-country:hover {
   cursor: pointer;
