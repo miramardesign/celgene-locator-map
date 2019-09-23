@@ -1,25 +1,25 @@
 
-<div class="top-instructions">
+<div class="top-instructions instructions-key">
   &nbsp;
   <!-- todo move above possibley -->
 </div>
 
 <article 
+id="study-article"
 (click)="selectCountry('');" 
 *ngIf="studyClickedList.length > 0" 
-class="row" 
-[ngClass]="studyClickedList"
-style="position: absolute; width: 100%; border: 2px solid gold;">
+class="row study-article" 
+[ngClass]="studyClickedList">
 
     <div class="col-4">
         <div class="study-details study-details-left"
-     
-           
             >
-            .......Study click left 
+            
+            <div class="d-none debug">
             {{studyClicked}}
             {{countryClicked}}
             studyClickedList  {{studyClickedList}}
+            </div>
 
           <div class="row row-plaque-psoriasis" id="ETUDE">
             <img src="assets/resources/ETUDE.svg" alt="ETUDE" />
