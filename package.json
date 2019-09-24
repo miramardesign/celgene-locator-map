@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "deploy": "ng build --prod --base-href \"https://miramardesign.github.io/celgene-locator-map/celgene-locator-map/\"  && ngh ",
+    "deploy": "ng build --prod --base-href \"https://miramardesign.github.io/celgene-locator-map/celgene-locator-map/\"  && ngh",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
