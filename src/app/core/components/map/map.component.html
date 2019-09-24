@@ -11,8 +11,10 @@
 
 <app-article-study id="study-article-wrap"
   (click)="selectCountry('');"
-  *ngIf="studyClickedList.length > 0"
-  [studyClickedList]="studyClickedList"></app-article-study>
+  *ngIf="countryClicked.length > 0"
+  [studyClickedList]="studyClickedList"
+  [countryClicked]="countryClicked"
+  ></app-article-study>
 
 <!-- from map.svg -->
 <svg id="map-svg"

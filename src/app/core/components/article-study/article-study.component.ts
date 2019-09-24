@@ -8,7 +8,7 @@ import { Component, OnInit, Input } from '@angular/core';
 export class ArticleStudyComponent implements OnInit {
 
   @Input() studyClickedList: [];
-
+  @Input() countryClicked: [];
   constructor() { }
 
   ngOnInit() {
