@@ -15,3 +15,39 @@
 //     width: 2048px;
 //     overflow: hidden;
 // }
+
+
+
+.row-psoriasis,
+.row-plaque-psoriasis,
+.row-moderate-plaque-psoriasis,
+.row-vis-hidden{
+  opacity: 0;
+  transition: opacity 0.5s linear;
+}
+
+//rows are mared row-greece etc.
+
+  // austria: appreciate,
+  // belgium: otelo,
+  // france: etude 
+  // german: appreciate, apart, lapis
+  // gb: appreciate:
+  // greece: appraisal
+  // ireland: appreciate;
+  // italy: darwin
+  // netherlands: april;
+  // spain: appropriate;
+  // sweden: appreciate
+  //switzerland: apprciate
+
+$countries: greece, italy, germany, belgium, netherlands,
+ ireland, gb, france, spain, austria, switzerland, sweden;
+@each $country in $countries {
+
+  .#{$country} .row-#{$country} {
+    //visibility: visible;
+    opacity: 1;
+  }
+
+}
