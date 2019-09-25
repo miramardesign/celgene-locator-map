@@ -1,18 +1,13 @@
 <div class="d-none debug">
   {{studyClicked}}
   {{countryClicked}}
-  studyClickedList {{studyClickedList}}
-  <a (click)="showStudies();">
-
-    show all studies test</a>
+ 
 </div>
-
 
 
 <app-article-study id="study-article-wrap"
   (click)="selectCountry('');"
   *ngIf="countryClicked.length > 0"
-  [studyClickedList]="studyClickedList"
   [countryClicked]="countryClicked"></app-article-study>
 
 <!-- from map.svg -->
