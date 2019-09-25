@@ -9,12 +9,7 @@
   height: 100%
 }
 
-path.selectable-country:hover {
-  cursor: pointer;
-  fill: $teal !important;
-}
-
-path.active {
+path.selectable-country:hover, path.active {
   cursor: pointer;
   fill: $teal !important;
 }
