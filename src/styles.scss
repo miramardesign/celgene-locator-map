@@ -1,2 +1,14 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 @import "./variables";
+
+//santen
+// .content-wrapper, body, html {
+//     height: 1080px;
+//     width: 1920px;
+//     overflow: hidden;
+// }
+.content-wrapper, body, html {
+    height: 1152px;
+    width: 2048px;
+    overflow: hidden;
+}
