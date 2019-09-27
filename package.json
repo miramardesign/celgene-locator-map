@@ -5,7 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "deploy": "ng build --prod --base-href \"https://miramardesign.github.io/celgene-locator-map/celgene-locator-map/\"  && ngh",
-    "zip": "bestzip ../%npm_package_name%-%npm_package_version%.zip ../%npm_package_name%/src/* ../%npm_package_name%/*.json ../%npm_package_name%/*.js  ../%npm_package_name%/*.md  ../%npm_package_name%/*.gitignore && npm version patch && git add package.json && npm run up",
+    "zip": "npm version patch && bestzip ../%npm_package_name%-%npm_package_version%.zip ../%npm_package_name%/src/* ../%npm_package_name%/*.json ../%npm_package_name%/*.js  ../%npm_package_name%/*.md  ../%npm_package_name%/*.gitignore &&  git add package.json && npm run up",
     "up": "gdrive-windows-x64 upload ../%npm_package_name%-%npm_package_version%.zip",
     "build": "ng build",
     "test": "ng test",
