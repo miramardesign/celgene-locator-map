@@ -1,29 +1,13 @@
 @import '../../../../variables';
 
-#study-article-right {
-    position: absolute;
-    width: 100%;
-    // right: 0.1rem;
-
-    //  border: 2px solid green; 
+.study-details, #study-article-right {
      background: $gradientRight;
      height: 66rem;
-     top: -10px;
-     left: 0;
-     //padding-left: 2rem;
-  
-
-  }
-  .study-details {
-  
-  
-    img {
-      margin-bottom: -11px;
-      margin-top: -10px;
-      min-height: 202px;
-    }
+     left: 1rem;
+    //  padding-left: 2rem;
   }
  
   
+
 
   

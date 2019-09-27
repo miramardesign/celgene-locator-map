@@ -10,11 +10,31 @@
 // 1920 x 1080
 
 
-// .content-wrapper, body, html {
-//     height: 1152px;
-//     width: 2048px;
-//     overflow: hidden;
-// }
+.study-details {
+  
+  
+  img {
+    margin-bottom: -11px;
+    margin-top: -10px;
+    min-height: 188px;
+  }
+}
+
+
+.study-article {
+  position: absolute;
+  width: 100%;
+
+  height: 66rem;
+  top: -10px;
+  
+  //if not the bg shows.
+  padding-left: 1rem;
+  margin-left: -2rem;
+}
+
+
+
 
 
 
