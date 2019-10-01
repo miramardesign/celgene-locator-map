@@ -1,15 +1,21 @@
 #celgene-footer{
     margin-top: -12.8%;
+
+    // folks you comment or change this, click on the Netherlands (NL) to be assured that the 
+    // APRIL logo doesn't overlap when opened.
+    padding-top: .6rem;
+
    // padding-top: 1.5rem;
 }
 
 #logo{
+    // may move into map.svg if it becomes problematic.
     background-image: url(../../../../assets/resources/Celgene-Logo.svg);
     width: 24%;
     height: 114px;
     background-repeat: no-repeat;
     position: relative;
-    top: -8px;
+    top: -4px;
     left: -12px;
 }
 
@@ -17,11 +23,12 @@
 .bottom-key{
     //moved into svg of map component. (easier to stick to bottom )
     // background-image: url(../../../../assets/resources/Bottom-Key.svg);
-    background-repeat: no-repeat;
-    background-position: -44px 10px;
-    background-size: 103% 113%;
+    // background-repeat: no-repeat;
+    // background-position: -44px 10px;
+    // background-size: 103% 113%;
+
     max-height: 140px;
-    border: 1px solid red;
+    // border: 1px solid red;
 }
 
 .marker{
