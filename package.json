@@ -10,12 +10,12 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "electron": "ng build --base-href ./ && electron .",
-    "build-windows": "ng build --base-href ./  --prod && electron-packager . --overwrite --asar --ignore=README.md --platform=win32 --out=electron-builds",
+    "build-windows": "ng build --base-href ./  --prod && electron-packager . --overwrite --asar --prune=true --ignore=README.md --platform=win32 --out=electron-builds",
     "build-mac": "ng build --base-href ./  --prod && electron-packager . --overwrite --asar --ignore=README.md --platform=darwin --out=electron-builds",
     "deploy": "ng build --prod --base-href \"https://miramardesign.github.io/celgene-locator-map/celgene-locator-map/\"  && ngh",
-    "patch": "npm version patch",
-    "zip": "bestzip ../%npm_package_name%-%npm_package_version%.zip ../%npm_package_name%/src/* ../%npm_package_name%/*.json ../%npm_package_name%/*.js  ../%npm_package_name%/*.md  ../%npm_package_name%/*.gitignore &&  git add package.json && npm run up",
-    "zipbuild": "bestzip ../%npm_package_name%-%npm_package_version%-exe-win32-x64.zip ../%npm_package_name%/electron-builds/%npm_package_name%-win32-x64/*  && npm run upbuild",
+    "patch": "  git add package.json && npm version patch",
+    "zip": "bestzip ../%npm_package_name%-%npm_package_version%.zip ../%npm_package_name%/src/* ../%npm_package_name%/*.json ../%npm_package_name%/*.js  ../%npm_package_name%/*.md  ../%npm_package_name%/*.gitignore && git add package.json && npm run up",
+    "zipbuild": "bestzip ../%npm_package_name%-%npm_package_version%-exe-win32-x64.zip ../%npm_package_name%/electron-builds/%npm_package_name%-win32-x64/*  ",
     "up": "gdrive-windows-x64 upload ../%npm_package_name%-%npm_package_version%.zip",
     "upbuild": "gdrive-windows-x64 upload ../%npm_package_name%-%npm_package_version%-exe-win32-x64.zip"
   },
@@ -29,8 +29,6 @@
     "@angular/platform-browser": "~8.2.7",
     "@angular/platform-browser-dynamic": "~8.2.7",
     "@angular/router": "~8.2.7",
-    "adm-zip-cli": "^1.0.0",
-    "angular-cli-ghpages": "^0.6.0",
     "bootstrap": "^4.3.1",
     "jquery": "^3.4.1",
     "popper": "^1.0.1",
@@ -61,6 +59,8 @@
     "protractor": "~5.4.0",
     "ts-node": "~7.0.0",
     "tslint": "~5.15.0",
-    "typescript": "~3.5.3"
+    "typescript": "~3.5.3",
+    "angular-cli-ghpages": "^0.6.0",
+    "adm-zip-cli": "^1.0.0"
   }
 }
