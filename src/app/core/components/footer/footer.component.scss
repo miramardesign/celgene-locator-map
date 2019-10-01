@@ -1,6 +1,6 @@
 #celgene-footer{
     margin-top: -12.8%;
-    padding-top: 1.5rem;
+   // padding-top: 1.5rem;
 }
 
 #logo{
@@ -15,11 +15,13 @@
 
 
 .bottom-key{
-    background-image: url(../../../../assets/resources/Bottom-Key.svg);
+    //moved into svg of map component. (easier to stick to bottom )
+    // background-image: url(../../../../assets/resources/Bottom-Key.svg);
     background-repeat: no-repeat;
     background-position: -44px 10px;
     background-size: 103% 113%;
     max-height: 140px;
+    border: 1px solid red;
 }
 
 .marker{
