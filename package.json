@@ -11,7 +11,11 @@
     "e2e": "ng e2e",
     "electron": "ng build --base-href ./ && electron .",
     "build-windows": "ng build --base-href ./  --prod && electron-packager . --overwrite --asar --ignore=README.md --platform=win32 --out=electron-builds",
-    "build-mac": "ng build --base-href ./  --prod && electron-packager . --overwrite --asar --ignore=README.md --platform=darwin --out=electron-builds"
+    "build-mac": "ng build --base-href ./  --prod && electron-packager . --overwrite --asar --ignore=README.md --platform=darwin --out=electron-builds",
+    "deploy": "ng build --prod --base-href \"https://miramardesign.github.io/celgene-locator-map/celgene-locator-map/\"  && ngh",
+    "patch": "npm version patch",
+    "zip": "bestzip ../%npm_package_name%-%npm_package_version%.zip ../%npm_package_name%/src/* ../%npm_package_name%/*.json ../%npm_package_name%/*.js  ../%npm_package_name%/*.md  ../%npm_package_name%/*.gitignore &&  git add package.json && npm run up",
+    "up": "gdrive-windows-x64 upload ../%npm_package_name%-%npm_package_version%.zip"
   },
   "private": true,
   "dependencies": {
