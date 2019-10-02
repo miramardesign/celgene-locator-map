@@ -73,6 +73,10 @@ export class MapComponent implements OnInit {
     );
   }
 
+  log(obj: any) {
+    console.log(obj);
+  }
+
   selectCountry(event: any) {
     this.countryClicked = "";
     // show all for debuggingg layout, link is hidden in crete, does not hide timer

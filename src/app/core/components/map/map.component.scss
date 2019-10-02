@@ -1,8 +1,5 @@
 @import "../../../../../src/_variables.scss";
 
-.selectable-country-group{
-  cursor: pointer;
-}
 
 #map-svg{
   width: 100%; 
@@ -55,14 +52,21 @@
     background-color: white;
   }
 
+  .country-region-grouped.active .selectable-country {
+    cursor: pointer;
+    fill: $teal !important;
+    
+    xfill: $teal !important;
+  }
+
+  .selectable-country-group{
+    cursor: pointer;
+  }
+  
+
 }
 
-.country-region-grouped.active .selectable-country {
-  cursor: pointer;
-  fill: $teal !important;
-  
-  xfill: $teal !important;
-}
+
 
 
 
