@@ -55,11 +55,9 @@
     background-color: white;
   }
 
-
-
 }
 
-path.selectable-country:hover, path.active {
+.country-region-grouped.active .selectable-country {
   cursor: pointer;
   fill: $teal !important;
   
